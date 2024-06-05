@@ -1,0 +1,139 @@
+/* Footer Dark Styling */
+.footer-dark {
+  background-color: #070707;
+  padding: 40px 0;
+  color: #f0f0f0;
+}
+
+/* Remove bullet points from lists */
+.footer-dark .footer-middle .footer-item ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Container Styles */
+.footer-dark .container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Top Section Styling */
+.footer-dark .footer-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.footer-dark .footer-top img {
+  width: 150px;
+  height: auto;
+}
+
+.footer-dark .footer-top h3 {
+  margin: 0 0 10px;
+  font-size: 24px;
+  color: #fff;
+}
+
+/* Middle Section Styling */
+.footer-dark .footer-middle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.footer-dark .footer-middle .footer-item {
+  width: 40%;
+  text-align: center;
+}
+
+.footer-dark .footer-middle .footer-item h4 {
+  margin: 0 0 10px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.footer-dark .footer-middle .footer-item ul li {
+  line-height: 24px;
+  margin-bottom: 5px;
+}
+
+/* Link Styling */
+.footer-dark .footer-middle .footer-item ul li a {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.footer-dark .footer-middle .footer-item ul li a:hover {
+  color: #e0e0e0;
+}
+
+/* Bottom Section Styling */
+.footer-dark .footer-bottom {
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.footer-dark .footer-bottom a {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.footer-dark .footer-bottom a:hover {
+  color: #e0e0e0;
+}
+
+/* Social Media Icons */
+.footer-dark .socialbtns {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.footer-dark .socialbtns ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-dark .socialbtns ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.footer-dark .socialbtns ul li a {
+  color: inherit;
+  transition: all 0.3s ease;
+}
+
+.footer-dark .socialbtns ul li a:hover {
+  color: #e0e0e0;
+}
+
+.footer-dark .socialbtns ul li img {
+  width: 20px;
+  height: 20px;
+}
+
+/* Copyright Section Styling */
+.footer-dark .copyright {
+  text-align: center;
+  padding-top: 24px;
+  opacity: 0.3;
+  font-size: 13px;
+  margin-bottom: 0;
+}

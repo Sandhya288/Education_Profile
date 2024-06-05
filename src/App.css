@@ -1,0 +1,333 @@
+body {
+	background-color: #282828;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* MAIN ////////////////////////////////////////////////////////////// */
+
+main {
+	background-color: #fff;
+}
+
+main .content {
+	
+ 
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+
+main .pg-header {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+ 
+	background-image: url('https://static.vecteezy.com/system/resources/thumbnails/011/545/805/small_2x/abstract-luxury-glowing-lines-curved-overlapping-on-dark-blue-background-template-premium-award-design-free-vector.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+	background-size: cover; /* Ensures the background image covers the entire container */
+   
+	padding: 70px;
+	
+	z-index: 1;
+	
+}
+
+main .pg-header h1 {
+	font-size: 40px;
+	font-weight: 800;
+	z-index: 10;
+	text-align: center;
+	margin-bottom: 20px;
+	font-family: var(--font-roboto);
+	background: linear-gradient(
+	  90deg,
+	  rgb(255, 255, 255) 70%,
+	  rgba(255, 255, 255, 0) 120%
+	);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
+
+main .pg-header p{
+	font-size: 20px;
+	align-items: center;
+   
+	color: #fff;
+	z-index: 10;
+	font-family: var(--font-roboto);
+	margin-bottom: 40px;
+  }
+
+/*  
+/* BUTTON ////////////////////////////////////////////////////////////// */
+
+.btn-primary {
+	border-radius: 0;
+}
+
+/* BREADCRUMB ////////////////////////////////////////////////////////////// */
+
+.breadcrumb {
+	margin-bottom: 0;
+	font-size: 13px;
+}
+
+.breadcrumb a {
+	color: #fff;
+}
+
+@media all and (max-width: 738px) {
+	.breadcrumb.justify-content-end {
+		justify-content: flex-start !important;
+	}
+}
+
+/* ABOUT ////////////////////////////////////////////////////////////// */
+
+.about h2 {
+	text-transform: uppercase;
+	font-size: 22px;
+	font-weight: 600;
+	padding-bottom: 10px;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.about h2::after {
+	position: absolute;
+	content: '';
+	width: 50px;
+	bottom: -6px;
+	height: 2px;
+	background-color: #666;
+	left: 0;
+}
+
+/* PRODUCTS ////////////////////////////////////////////////////////////// */
+
+
+
+
+/* SINGLE PRODUCT ////////////////////////////////////////////////////////////// */
+
+.single h2 {
+	text-transform: capitalize;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.single h2::after {
+	position: absolute;
+	content: '';
+	width: 50px;
+	bottom: -6px;
+	height: 2px;
+	background-color: #666;
+	left: 0;
+}
+
+.single .btn-primary {
+	font-weight: 600;
+}
+
+.single .price {
+	font-size: 22px;
+}
+
+.single .price strong {
+	color: #0a58ca;
+}
+
+/* POSTS ////////////////////////////////////////////////////////////// */
+
+.posts .col-sm-6 {
+	margin-bottom: 20px;
+}
+
+.posts .card-title {
+	text-transform: capitalize;
+}
+
+.posts .card-text {
+	text-align: center;
+}
+
+/* HEADER ////////////////////////////////////////////////////////////// */
+/* Navbar container */
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+  }
+  
+  /* Navbar layout */
+  header {
+	background-color: #ffffff;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	padding: 10px 0;
+  }
+  
+  /* Logo styling */
+  .logo {
+	display: flex;
+	align-items: center;
+  }
+  
+  .logo img {
+	margin-right: 10px;
+  }
+  
+  .brand {
+	font-size: 1.2rem;
+	color: #333;
+	text-decoration: none;
+  }
+  
+  /* Navbar links */
+ /* Navbar container */
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+  }
+  
+  /* Navbar layout */
+  header {
+	background-color: #ffffff;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	padding: 10px 0;
+  }
+  
+  /* Logo styling */
+  .logo {
+	display: flex;
+	align-items: center;
+  }
+  
+  .logo img {
+	margin-right: 10px;
+  }
+  
+  .brand {
+	font-size: 1.2rem;
+	color: #333;
+	text-decoration: none;
+  }
+  
+  /* Navbar links */
+ /* Navbar container */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Navbar layout */
+header {
+  background-color: #f1eaea;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+}
+
+/* Logo styling */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  margin-right: 10px;
+}
+
+.brand {
+  font-size: 1.3rem;
+  color: #333;
+  text-decoration: none;
+}
+
+/* Navbar links */
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  margin-right: 20px;
+  color: #333;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #007bff;
+}
+
+.active {
+  font-weight: bold;
+  color: #007bff;
+}
+
+/* Mobile menu */
+.mobile-menu {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  /* Show the mobile menu icon and hide the navigation links */
+  .nav {
+    display: none;
+  }
+  
+  .mobile-menu {
+    display: block;
+  }
+
+  /* Style for the mobile menu icon */
+  .mobile-menu-icon {
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+
+  /* Style for the dropdown menu */
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #000000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Show the dropdown menu when the mobile menu icon is clicked */
+  .mobile-menu:checked + .dropdown-menu {
+    display: block;
+  }
+
+  /* Style for dropdown menu links */
+  .dropdown-menu-link {
+    display: block;
+    padding: 10px 20px;
+    color: #333;
+    text-decoration: none;
+  }
+
+  .dropdown-menu-link:hover {
+    background-color: #f0f0f0;
+  }
+}
+
+  
+/* FOOTER ////////////////////////////////////////////////////////////// */
+
+/*CONTACT*/
+

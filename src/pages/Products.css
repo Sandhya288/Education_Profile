@@ -1,0 +1,94 @@
+/* Products.css */
+
+/* CARD ////////////////////////////////////////////////////////////// */
+
+/* Products.css */
+
+/* CARD ////////////////////////////////////////////////////////////// */
+
+.card {
+    border-radius: 0;
+    box-shadow: 0px 10px 15px #615d5d;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allow products to wrap to the next line on smaller screens */
+    gap: 15px; /* Add spacing between products */
+    margin-top: 15px;
+}
+
+.hehe {
+    margin-left: 80px; /* Add left margin to the heading */
+}
+.card .card-title {
+	
+    margin-bottom: 20px;
+    text-align: center;
+    position:relative;
+}
+
+.card .img-wrap {
+    height: 170px;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.125);
+}
+
+.card .img-wrap img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.card .price {
+    color: #0d6efd;
+}
+
+.card .btn-primary {
+    font-weight: 600;
+    display: block;
+    margin: 0 auto; /* Center the button horizontally */
+}
+
+/* Additional styling for the "DETAILS" button */
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+.btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+}
+
+.btn-sm:hover {
+    color: #fff;
+}
+
