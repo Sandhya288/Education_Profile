@@ -1,6 +1,7 @@
+// Products.jsx
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import PRODUCTS from '../data.js';
+import PRODUCTS from '../data';
 import './Products.css';
 
 const Products = () => {
@@ -12,8 +13,7 @@ const Products = () => {
 
   return (
     <main>
-      <h1 className='hehe'>Courses:</h1> {/* Heading added here */}
-      
+      <h1 className='hehe'>Courses:</h1>
       <div className="container content">
         <div className="row products-row">
           {PRODUCTS.map((product) => {
@@ -46,3 +46,4 @@ const Products = () => {
 };
 
 export default Products;
+

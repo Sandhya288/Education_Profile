@@ -1,20 +1,21 @@
-import { Outlet } from 'react-router-dom'
-
-import Header from '../components/Header.jsx'
-import Footer from '../components/Footer.jsx'
-
-import React from 'react'
-import Products from './Products.jsx'
+import { Outlet, useLocation } from 'react-router-dom';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import React from 'react';
+import Products from './Products';
 
 const MainLayout = () => {
+  const location = useLocation();
+  const isProductDetailsPage = location.pathname.includes('/products/');
+
   return (
     <>
       <Header />
       <Outlet />
-      <Products/>
-      <Footer />
+      {!isProductDetailsPage && <Products />}
+      {!isProductDetailsPage && <Footer />}
     </>
-  )
-}
+  );
+};
 
-export default MainLayout
+export default MainLayout;

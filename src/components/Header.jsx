@@ -10,7 +10,7 @@ const Header = () => {
             <img
               src="https://2staritsolution.netlify.app/logo.png"
               alt="Logo"
-              height="40" />
+              height="30" />
             <Link to='/' className='brand'>2STAR IT SOLUTION PRIVATE LIMITED</Link>
           </div>
 

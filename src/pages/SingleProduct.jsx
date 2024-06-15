@@ -1,14 +1,25 @@
-import { Link, useNavigate, useParams } from 'react-router-dom';
-import PRODUCTS from '../data.js';
+import React, { useState } from 'react';
+import { Link, useParams } from 'react-router-dom';
+import PRODUCTS from '../data';
+import certifiImage from '../images/certifi.png';
 
 const SingleProduct = () => {
-  const navigate = useNavigate();
   const { productId } = useParams();
 
   // Get product details based on productId
   const singleProduct = PRODUCTS.find(product => product.id === parseInt(productId));
 
-  const { name, price, image, details } = singleProduct;
+  const [showCertificateImage, setShowCertificateImage] = useState(false);
+
+  const { name, price, image, details } = singleProduct || {};
+
+  const toggleCertificateImage = () => {
+    setShowCertificateImage(!showCertificateImage);
+  };
+
+  if (!singleProduct) {
+    return <p>Product not found</p>; // Handle the case where the product is not found
+  }
 
   return (
     <main>
@@ -21,7 +32,7 @@ const SingleProduct = () => {
             <div className="col-lg-5">
               <nav aria-label="breadcrumb">
                 <ol className="breadcrumb justify-content-end">
-                  <li className="breadcrumb-item" ><Link to="/">Home</Link></li>
+                  <li className="breadcrumb-item"><Link to="/">Home</Link></li>
                   <li className="breadcrumb-item"><Link to="/products">Courses</Link></li>
                   <li className="breadcrumb-item active" aria-current="page">{name}</li>
                 </ol>
@@ -33,23 +44,29 @@ const SingleProduct = () => {
       <div className="container content">
         <div className="row">
           <div className="col-lg-5">
-            <img src={image} alt="" className="img-fluid" />
+            <img src={image} alt={name} className="img-fluid" />
           </div>
           <div className="col-lg-7">
             <h2>{name}</h2>
             <p className="price"><strong>{price}</strong></p>
-            <ul> {/* Render details as bullet points */}
+            <ul>
               {details.map((detail, index) => (
                 <li key={index}>{detail}</li>
               ))}
             </ul>
-            
             <br />
-           
-            <a href="/products" className="btn btn-primary btn-sm">BACK</a> &nbsp;
-
+            <Link to="/products" className="btn btn-primary btn-sm">BACK</Link> &nbsp;
             <a href="https://forms.gle/Gky4RwmjntzzhPKQ7" className="btn btn-primary btn-sm">REGISTER HERE</a> &nbsp;
-            <a href="/" className="btn btn-primary btn-sm">CERTIFICATE</a> &nbsp;
+            {/* Toggle button for CERTIFICATE */}
+            <button className="btn btn-primary btn-sm" onClick={toggleCertificateImage}>
+              CERTIFICATE
+            </button>
+            {/* Conditionally show certificate image */}
+            {showCertificateImage && (
+              <div className="certificate-image-container">
+                <img src={certifiImage} alt="Certificate" className="certificate-image img-fluid" />
+              </div>
+            )}
           </div>
         </div>
       </div>

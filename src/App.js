@@ -4,7 +4,7 @@ import MainLayout from './pages/MainLayout.jsx';
 import Home from './pages/Home.jsx';
 import About from './pages/About.jsx';
 import Posts from './pages/Posts.jsx';
-import Fullstack from './pages/Fullstack.jsx';
+
 
 import Products from './pages/Products.jsx';
 import SingleProduct from './pages/SingleProduct.jsx';
@@ -24,6 +24,7 @@ function App() {
 						<Route path='products' element={<Products />} />
 						<Route path='products/:productId' element={<SingleProduct />} />
                         <Route path='posts' element={<Posts />} />
+						 <Route path='posts' element={<Posts />} />
 					
 					    
 

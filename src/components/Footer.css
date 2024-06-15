@@ -1,4 +1,3 @@
-/* Footer Dark Styling */
 .footer-dark {
   background-color: #070707;
   padding: 40px 0;
@@ -6,7 +5,7 @@
 }
 
 /* Remove bullet points from lists */
-.footer-dark .footer-middle .footer-item ul {
+.footer-dark ul {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -136,4 +135,17 @@
   opacity: 0.3;
   font-size: 13px;
   margin-bottom: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer-dark .footer-middle {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-dark .footer-middle .footer-item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 }
