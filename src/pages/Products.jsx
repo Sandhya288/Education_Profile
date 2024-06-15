@@ -13,7 +13,7 @@ const Products = () => {
 
   return (
     <main>
-      <h1 className='hehe'>Courses:</h1>
+      <h1 className='hehe'>COURSES</h1>
       <div className="container content">
         <div className="row products-row">
           {PRODUCTS.map((product) => {

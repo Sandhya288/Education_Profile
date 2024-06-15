@@ -16,9 +16,7 @@
     margin-top: 15px;
 }
 
-.hehe {
-    margin-left: 80px; /* Add left margin to the heading */
-}
+
 .card .card-title {
 	
     margin-bottom: 20px;
@@ -47,7 +45,10 @@
     color: #0d6efd;
 }
 
-
+.hehe{
+    text-align: center;
+  
+}
 .card .btn-primary {
     font-weight: 600;
     display: block;
