@@ -16,9 +16,6 @@
   max-width: 1170px;
   width: 100%;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 /* Top Section Styling */
@@ -44,15 +41,14 @@
 /* Middle Section Styling */
 .footer-dark .footer-middle {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-between; /* Ensures the items are spaced evenly */
   width: 100%;
   margin-bottom: 20px;
 }
 
 .footer-dark .footer-middle .footer-item {
-  width: 40%;
-  text-align: center;
+  width: 30%; /* Ensures three items fit in a row */
+  text-align: left; /* Align text to the left */
 }
 
 .footer-dark .footer-middle .footer-item h4 {
@@ -147,6 +143,7 @@
   .footer-dark .footer-middle .footer-item {
     width: 100%;
     margin-bottom: 20px;
+    text-align: center; /* Center align the items */
   }
 
   .footer-dark .footer-middle .footer-item ul {

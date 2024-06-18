@@ -1,27 +1,23 @@
-/* Products.css */
-
-/* CARD ////////////////////////////////////////////////////////////// */
-
-/* Products.css */
-
 /* CARD ////////////////////////////////////////////////////////////// */
 
 .card {
     border-radius: 0;
     box-shadow: 0px 10px 15px #615d5d;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap; /* Allow products to wrap to the next line on smaller screens */
-    gap: 15px; /* Add spacing between products */
-    margin-top: 5px;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 300px; /* Set a fixed width for the card */
+    height: 400px; /* Set a fixed height for the card */
+    margin-top: 15px;
+    overflow: hidden;
+   
 }
 
-
 .card .card-title {
-	
     margin-bottom: 20px;
-    
-    position:relative;
+   
+    position: relative;
 }
 
 .card .img-wrap {
@@ -35,21 +31,31 @@
 
 .card .img-wrap img {
     width: 100%;
-    max-width: 100%;
-    max-height: 100%;
-    margin: 0 auto;
+    height: 100%;
     object-fit: cover;
+}
+
+.card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    height: calc(100% - 170px); /* Adjust height to fill the remaining space */
+}
+
+.card .card-details {
+    flex-grow: 1;
 }
 
 .card .price {
     color: #0d6efd;
 }
 
-.hehe{
- text-decoration: underline;
+.hehe {
+    text-decoration: underline;
     text-align: center;
-  
 }
+
 .card .btn-primary {
     font-weight: 600;
     display: block;
@@ -69,7 +75,7 @@
     font-size: 1rem;
     line-height: 1.5;
     border-radius: .25rem;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
 .btn-primary {
@@ -95,3 +101,22 @@
     color: #fff;
 }
 
+/* Responsive Design */
+
+@media (max-width: 767px) {
+    .card {
+        width: 100%;
+        max-width: none;
+        height: auto;
+    }
+
+    .footer-dark .footer-middle {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-dark .footer-middle .footer-item {
+        width: 100%;
+        text-align: center;
+    }
+}

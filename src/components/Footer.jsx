@@ -19,7 +19,7 @@ const Footer = () => {
               <h3>Our Branches</h3>
               <ul>
                 <li>
-                  <i className="fa fa-map-marker" aria-hidden="true"></i>&nbsp;&nbsp;
+                  <i className="fa fa-map-marker" aria-hidden="true"></i>
                   <a href="#">
                     AIC Building, 3rd floor <br />
                     &nbsp;&nbsp;&nbsp;&nbsp;Office no-7, <br />
