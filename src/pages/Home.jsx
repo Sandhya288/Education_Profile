@@ -5,7 +5,7 @@ const Home = () => {
     <main>
       <div className="pg-header">
         <div className="container">
-          <h1>WELCOME TO 2STAR IT SOLUTIONS PVT LTD</h1>
+          <h1>WELCOME TO 2STAR IT SOLUTION PVT LTD</h1>
           <p>Enroll today & Upskill yourself!</p>
           <img
             src={QR}
