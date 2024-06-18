@@ -138,6 +138,7 @@ main .pg-header p{
   
   .single-product-page .col-lg-7 {
 	margin-top: 20px;
+	align-items: center;
   }
   
   @media (max-width: 768px) {
@@ -188,7 +189,8 @@ main .pg-header p{
   }
   
   .brand {
-	font-size: 20px;
+	font-size: 1.2rem;
+	font-weight: bold;
 	color: #333;
 	text-decoration: none;
   }
@@ -220,11 +222,7 @@ main .pg-header p{
 	margin-right: 10px;
   }
   
-  .brand {
-	font-size: 1.2rem;
-	color: #333;
-	text-decoration: none;
-  }
+ 
   
   /* Navbar links */
  /* Navbar container */
@@ -252,11 +250,7 @@ header {
   margin-right: 10px;
 }
 
-.brand {
-  font-size: 1.3rem;
-  color: #333;
-  text-decoration: none;
-}
+
 
 /* Navbar links */
 .nav {

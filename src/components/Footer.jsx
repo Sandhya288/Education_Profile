@@ -6,8 +6,8 @@ const Footer = () => {
     <div className="footer-dark">
       <footer>
         <div className="container">
-          <div className="row">
-            <div className="col-sm-6 col-md-3 item">
+          <div className="row footer-middle">
+            <div className="col-sm-6 col-md-3 footer-item">
               <h3>Services</h3>
               <ul>
                 <li><a href="#">Web design</a></li>
@@ -15,7 +15,7 @@ const Footer = () => {
                 <li><a href="#">Hosting</a></li>
               </ul>
             </div>
-            <div className="col-sm-6 col-md-4 item">
+            <div className="col-sm-6 col-md-4 footer-item">
               <h3>Our Branches</h3>
               <ul>
                 <li>
@@ -24,15 +24,13 @@ const Footer = () => {
                     AIC Building, 3rd floor <br />
                     &nbsp;&nbsp;&nbsp;&nbsp;Office no-7, <br />
                     &nbsp;&nbsp;&nbsp;&nbsp;NITTE College Campus
+                   Ras Al Khaima National ENT MUSCUT, OMEN
                   </a>
                 </li>
-                <li>
-                  <i className="fa fa-map-marker" aria-hidden="true"></i>&nbsp;&nbsp;
-                  <a href="#">Ras Al Khaima National ENT <br />&nbsp;&nbsp;&nbsp;&nbsp;MUSCUT, OMEN</a>
-                </li>
+               
               </ul>
             </div>
-            <div className="col-md-5 col-lg-5 item text-md-left text-center">
+            <div className="col-md-5 col-lg-5 footer-item text-md-left text-center">
               <h3>2STAR IT SOLUTIONS PRIVATE LIMITED</h3>
               <p>
                 "2 Star IT Solution Pvt Ltd is a leading provider of electronic gadgets, offering a diverse

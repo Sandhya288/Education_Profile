@@ -13,7 +13,7 @@
     justify-content: center;
     flex-wrap: wrap; /* Allow products to wrap to the next line on smaller screens */
     gap: 15px; /* Add spacing between products */
-    margin-top: 15px;
+    margin-top: 5px;
 }
 
 
@@ -46,6 +46,7 @@
 }
 
 .hehe{
+ 
     text-align: center;
   
 }

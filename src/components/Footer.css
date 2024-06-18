@@ -148,4 +148,21 @@
     width: 100%;
     margin-bottom: 20px;
   }
+
+  .footer-dark .footer-middle .footer-item ul {
+    text-align: center;
+  }
+
+  .footer-dark .footer-middle .footer-item ul li {
+    display: inline-block;
+    margin-right: 15px;
+  }
+
+  .footer-dark .footer-middle .footer-item ul li:last-child {
+    margin-right: 0;
+  }
+
+  .footer-dark .footer-middle .footer-item h4 {
+    text-align: center;
+  }
 }
