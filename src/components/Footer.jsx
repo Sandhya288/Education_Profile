@@ -23,7 +23,7 @@ const Footer = () => {
                   <a href="#">
                     AIC Building, 3rd floor <br />
                     Office no-7, <br />
-                    NITTE College Campus
+                    NITTE College Campus,
                    Ras Al Khaima National ENT MUSCUT, OMEN
                   </a>
                 </li>
