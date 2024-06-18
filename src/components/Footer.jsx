@@ -22,8 +22,8 @@ const Footer = () => {
                   <i className="fa fa-map-marker" aria-hidden="true"></i>
                   <a href="#">
                     AIC Building, 3rd floor <br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;Office no-7, <br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;NITTE College Campus
+                    Office no-7, <br />
+                    NITTE College Campus
                    Ras Al Khaima National ENT MUSCUT, OMEN
                   </a>
                 </li>
