@@ -5,7 +5,7 @@
 }
 
 /* Remove bullet points from lists */
-.footer-dark ul {
+.footer-dark .footer-middle .footer-item ul {
   list-style: none;
   padding: 0;
   margin: 0;
