@@ -54,7 +54,7 @@ const PRODUCTS = [
 	  image: require('./images/AI.jpg'),
 	  details: [
 		'Understand the fundamentals of artificial intelligence and machine learning',
-		'Learn algorithms and techniques for data analysis and pattern recognition',
+		'Learn algorithms and techniques',
 		'Implement machine learning models using Python and libraries like TensorFlow or PyTorch',
 		'Explore applications of AI and ML in various fields such as healthcare, finance, and robotics',
 		'Understand deep learning architectures like convolutional neural networks and recurrent neural networks',
