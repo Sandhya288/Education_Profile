@@ -6,8 +6,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 300px; /* Set a fixed width for the card */
-    height: 300px; /* Set a fixed height for the card */
+    width: 360px; /* Set a fixed width for the card */
+    height: 360px; /* Set a fixed height for the card */
     margin: 10px; /* Set consistent margin for spacing between cards */
     overflow: hidden;
 }
@@ -105,8 +105,8 @@
     .card {
         width: 90vw; /* Use viewport width for responsiveness */
         height: 90vw; /* Ensure height matches width for square shape */
-        max-width: 350px; /* Limit the maximum width */
-        max-height: 350px; /* Limit the maximum height */
+        max-width: 360px; /* Limit the maximum width */
+        max-height: 360px; /* Limit the maximum height */
         margin: 10px auto; /* Center the cards horizontally */
     }
 
